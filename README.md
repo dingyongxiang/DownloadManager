@@ -1,9 +1,9 @@
 # DownloadManager
   Android下载工具
   
-  默认使用Android原生的DownloadManager下载文件
+  _默认使用Android原生的DownloadManager下载文件_
   
-  你也可以使用自定义的下载引擎，只需要继承Engine类
+  _你也可以使用自定义的下载引擎，只需要继承Engine类_
   - 使用方法：
   ```
    DownloadManager.getInstance()
