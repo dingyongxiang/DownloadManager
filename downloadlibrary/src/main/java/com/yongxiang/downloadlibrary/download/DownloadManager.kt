@@ -32,6 +32,7 @@ class DownloadManager : ManagerEngine, LifecycleObserver {
         mDownLoadEngine?.onDestroy()
         lifecycle?.removeObserver(this)
         context = null
+        listener= null
     }
 
 
