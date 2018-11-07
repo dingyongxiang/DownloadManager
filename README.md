@@ -1,7 +1,9 @@
 # DownloadManager
   Android下载工具
+  
   默认使用Android原生的DownloadManager下载文件
-  也可使用自定义的下载引擎，只需要继承Engine类
+  
+  你也可以使用自定义的下载引擎，只需要继承Engine类
   - 使用方法：
   ```
    DownloadManager.getInstance()
@@ -25,8 +27,10 @@
                   .startDownload()
 ```
  - 自定义下载引擎：
- 1.让你的下载引擎继承Engine类
- 2.设置下载引擎
+ 
+   1.让你的下载引擎继承Engine类
+ 
+   2.设置下载引擎
  ```
   DownloadManager.getInstance()
                  .setEngine(engine)
